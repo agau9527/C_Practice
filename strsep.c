@@ -7,7 +7,6 @@ void main()
 	char *buf;  
 	char *token;  
 	buf = str2;
-	//strsep(&str2, "@");
 
 	strsep(&buf, "@");
 	token = strsep(&buf, "@");
